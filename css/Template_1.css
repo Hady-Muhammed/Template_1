@@ -335,6 +335,16 @@ html {
     top: -31px;
  }
 
+@media (max-width: 769px) {
+  .about-content .image::before,
+  .about-content .image::after {
+    display: none;
+  }
+  .about-content .image img  {
+    max-width: 300px;
+  }
+}
+
  .about-content hr {
    background-color: blue;
  }
@@ -400,7 +410,7 @@ html {
 @media (max-width: 767px) {
    .contact .info h3,
    .contact .info .link {
-      font-size: 30px;
+      font-size: 25px;
    }
 }
  /* End Contact */
